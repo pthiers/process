@@ -1,0 +1,15 @@
+{
+    "require": {
+        "nesbot/carbon": "^1.21",
+        "symfony/console": "^3.0",
+        "monolog/monolog": "^1.17",
+        "catfan/Medoo": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "System\\": "System/",
+            "App\\":"App/",
+            "Config\\":"Config/"
+        }
+    }
+}
